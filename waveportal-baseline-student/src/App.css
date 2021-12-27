@@ -1,0 +1,68 @@
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.Textbox{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.bio {
+  text-align: center;
+  color: lightblue;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: white;
+}
+
+a:link {
+  color: #EDA05C;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #EDA05C;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+}
